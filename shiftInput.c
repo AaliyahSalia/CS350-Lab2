@@ -8,12 +8,12 @@
 
 #include <stdio.h>
 
-int main(void){
+int main(void){ 
     int data, result;
-    printf("Read the integer from keyboard: ");
-    scanf("%d", &data);
-    result = data << 3;
-    printf("The left shifted data is = %d", result);
+    printf("Read the integer from keyboard: "); // prompts the user to enter an integer
+    scanf("%d", &data); // reads the input from user and stores in variable 'data'
+    result = data << 3;  // left shift the value of 'data' by 3 
+    printf("The left shifted data is = %d", result); // prints the left shifted value of 'data'
 
     return 0;
 }
