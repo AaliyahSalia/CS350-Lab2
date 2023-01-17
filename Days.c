@@ -17,14 +17,14 @@
 
 int main(void){
     char day;
-    printf("Enter m for Monday \n");
-    printf("t for Tuesday \n");
-    printf("w for Wednesday \n");
-    printf("h for Thursday \n");
-    printf("f for Friday \n");
-    printf("s for Saturday \n");
-    printf("u for Sunday: \n");
-    scanf("%c", &day);
+    printf("Enter m for Monday \n"); //prompt user to enter.
+    printf("t for Tuesday \n"); //prompt user to enter.
+    printf("w for Wednesday \n"); //prompt user to enter.
+    printf("h for Thursday \n"); //prompt user to enter.
+    printf("f for Friday \n"); //prompt user to enter.
+    printf("s for Saturday \n"); //prompt user to enter.
+    printf("u for Sunday: \n");  //prompt user to enter.
+    scanf("%c", &day); //reads the input from user and stores it in variable 'day'. 
     switch(day){
         case 'm':
             printf("Monday");
@@ -48,7 +48,7 @@ int main(void){
             printf("Sunday");
             break;
         default:
-            printf("Invalid input");
+            printf("Invalid input"); //if input is invalid it will print 'Invalid input'
             break;
     }
     return 0;
