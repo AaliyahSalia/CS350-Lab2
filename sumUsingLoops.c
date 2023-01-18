@@ -10,14 +10,14 @@
 #include <stdio.h>
 
 int main(void){
-    int n, i, sum=0;
-    printf("enter a number: ");
-    scanf("%d", &n);
-    for(i=1; i<=n; i++){
-        sum += i;
+    int n, i, sum=0; 
+    printf("enter a number: "); //prompts the user to enter a number
+    scanf("%d", &n); //reads the input from user and stores in variable 'n'.
+    for(i=1; i<=n; i++){  // loop to iterate through numbers
+        sum += i;  // add each number to the sum
     }
-    printf("sum = %d", sum);
-
+    printf("sum = %d", sum); // print the sum of numbers
+ 
     return 0;
 }
 
